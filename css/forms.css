@@ -1,0 +1,161 @@
+*{
+    margin: 0; 
+    padding: 0;   
+    }
+    @media only screen and (max-device-width: 1980px){
+        .menu{
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 11%; 
+            background-color: #000000; 
+            padding: 1%; 
+        }
+        .search-box{
+            height: 2%;
+            padding: 2%;
+            border-radius: 40px;
+            background-color: #063855;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .serach-txt{
+            border: none;
+            background: none;
+            outline: none;
+            color: white;
+            font-size: 81%;
+            padding-left: 5%;
+        }
+        .search-btn{
+            width: 20%;
+            padding-top: 3%;
+        }
+        ul {
+            list-style: none; 
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            margin-top: 6%; 
+            font-family: 'Ysabeau', sans-serif;
+        }
+        a{
+            display: block; 
+            color: white; 
+            text-decoration: none; 
+        }
+        ul li a:hover{
+            background-color: #4791bb;
+        }
+        .Contacto{
+            padding-top: 1%;
+        }
+        .contact{
+            padding-top: 325%;
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+        .dropdown-content{
+            display: block;
+            padding-left: 2%;
+            color: white;
+            cursor: pointer;
+            position: relative;
+        }
+        h1{
+            font-size: 351%;
+            padding-left: 14%;
+            padding-top: 1%;
+            color: #4791bb;
+        }
+        h2{
+            font-size: 231%;
+            padding-left: 14%;
+            padding-top: 1%;
+            color: #25abf7;
+        }
+        h3{
+            font-size: 231%;
+            padding-left: 14%;
+            padding-top: 2%;
+            color: #25abf7;
+        }
+        p{
+            padding-left: 14%;
+            padding-top: 1%;
+            font-size: 120%;
+            font-family: DINNextW1G,arial,georgia,sans-serif;
+        }
+        .linhafinal{
+            padding-bottom: 3%;
+        }
+        .codespan{
+            color: #58bff9;
+            font-size: 94%;
+            font-family: DINNextW1G,arial,georgia,sans-serif;
+        }
+        body{
+            background-color: rgb(43, 43, 43);
+            color: white;
+        }
+        .imagem{
+            padding-left: 16%; 
+            padding-top: 2%;
+        }
+        .imagemfinal{
+            padding-left: 16%; 
+            padding-top: 2%;  
+            padding-bottom: 3%;
+        }
+    }
+
+    @media only screen and (max-device-width: 1366px){
+        .menu {
+            width:15%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding: 13px;
+        }
+        .contact{
+            padding-top: 180%;
+        }
+        h1{
+            font-size: 351%;
+            padding-left: 18%;
+            padding-top: 1%;
+            color: #4791bb;
+        }
+        h2{
+            font-size: 231%;
+            padding-left: 18%;
+            padding-top: 1%;
+            color: #25abf7;
+        }
+        h3{
+            font-size: 231%;
+            padding-left: 18%;
+            padding-top: 2%;
+            color: #25abf7;
+        }
+        p{
+            padding-left: 18%;
+            padding-top: 1%;
+            font-size: 120%;
+            font-family: DINNextW1G,arial,georgia,sans-serif;
+        }
+        .imagem{
+            padding-left: 19%; 
+            padding-top: 2%;
+        }
+        .imagemfinal{
+            padding-left: 19%; 
+            padding-top: 2%;
+            padding-bottom: 3%;
+        }
+    }

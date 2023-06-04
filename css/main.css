@@ -1,0 +1,105 @@
+*{
+    margin: 0; 
+    padding: 0;   
+    }
+    @media only screen and (max-device-width: 1980px){
+        body{
+            background-color: rgb(43, 43, 43);
+        }
+        .menu{
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 11%; 
+            background-color: #000000; 
+            padding: 1%; 
+        }
+        .search-box{
+            height: 2%;
+            padding: 2%;
+            border-radius: 40px;
+            background-color: #063855;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .serach-txt{
+            border: none;
+            background: none;
+            outline: none;
+            color: white;
+            font-size: 81%;
+            padding-left: 5%;
+        }
+        .search-btn{
+            width: 20%;
+            padding-top: 3%;
+        }
+        ul {
+            list-style: none; 
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            margin-top: 6%; 
+            font-family: 'Ysabeau', sans-serif;
+        }
+        a{
+            display: block; 
+            color: white; 
+            text-decoration: none; 
+        }
+        ul li a:hover{
+            background-color: #4791bb;
+        }
+        .contact{
+            padding-top: 325%;
+        }
+        .menu ul{
+            list-style-type: none;
+        }
+        .dropdown-content{
+            display: block;
+            padding-left: 2%;
+            color: white;
+            cursor: pointer;
+            position: relative;
+        }
+        .Contacto{
+            padding-top: 1%;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            padding-left: 45%;
+            padding-top: 17%;
+            font-size: 779%;
+            color: white;
+        }
+        .introducao{
+            padding-left: 36%;
+            background-color: #4791bb;
+            display: flex;
+            height: 85px;
+            font-size: 118%;
+            color: white;
+        } 
+    }
+    
+    @media only screen and (max-device-width: 1366px){
+        .menu {
+            width:15%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding: 13px;
+        }
+        .contact{
+            padding-top: 180%;
+        }
+    }
